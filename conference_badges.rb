@@ -19,4 +19,5 @@ end
 def printer(array)
   batch_badge_creator(array).each{|names| puts names}
   assign_rooms(array).each{|room| puts room}
+  puts "Hello, #{name}! Welcome to the show. You are assigned to room #{index+1}"
 end
